@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component Post should correctly render Post 1`] = `
+<li
+  className="post"
+>
+  <div
+    className="discription"
+  >
+    <a
+      className="title"
+      href="#"
+    >
+      Here should be a title
+    </a>
+    <span
+      className="text"
+    >
+      0 points
+    </span>
+    <span
+      className="comments"
+    >
+      0 comments
+    </span>
+    <span
+      className="date"
+    >
+      No Date
+    </span>
+    <span
+      className="author"
+    >
+      Viktor
+    </span>
+  </div>
+</li>
+`;

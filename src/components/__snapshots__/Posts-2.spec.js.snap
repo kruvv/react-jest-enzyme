@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Posts-2 /> should correctly render Posts-2 1`] = `
+<div
+  className="wrapper"
+>
+  <Title
+    title="Hacker News"
+  />
+  <Input
+    handleChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": 10,
+          "value": 10,
+        },
+        Object {
+          "label": 20,
+          "value": 20,
+        },
+        Object {
+          "label": 40,
+          "value": 40,
+        },
+        Object {
+          "label": 50,
+          "value": 50,
+        },
+      ]
+    }
+    value={20}
+  />
+  <Input
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    value=""
+  />
+</div>
+`;
