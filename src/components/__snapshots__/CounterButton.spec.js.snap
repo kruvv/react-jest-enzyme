@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountButton /> should correctly render component CountButton 1`] = `
+<div>
+  <div>
+    0
+  </div>
+  <button
+    className="plusOneBtn"
+    onClick={[Function]}
+  >
+    +1
+  </button>
+  <button
+    className="resetBtn"
+    onClick={[Function]}
+  >
+    Reset to 10
+  </button>
+</div>
+`;

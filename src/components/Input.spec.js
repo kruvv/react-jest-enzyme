@@ -19,4 +19,11 @@ describe('<Input />', () => {
         });
     });
 
+    it("should call onChange method", () => {
+        const mockCallBack = jest.fn();
+        const component = shallow(<Input onChange={mockCallBack} />);
+        expect(mockCallBack.mock.calls.length).toEqual(0);
+        component.find(".input").simulate("change");
+        expect(mockCallBack.mock.calls.length).toBe(1);
+    });
 });
