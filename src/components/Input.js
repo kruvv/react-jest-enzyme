@@ -25,6 +25,9 @@ Input.defaultProps = {
     onChange: () => {},
     onKeyPress: () => {},
     value: "",
+    name: "Input"
 };
+
+// Input.displayName = "Input";
 
 export default Input;

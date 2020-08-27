@@ -24,6 +24,7 @@ describe('<Input />', () => {
         const component = shallow(<Input onChange={mockCallBack} />);
         expect(mockCallBack.mock.calls.length).toEqual(0);
         component.find(".input").simulate("change");
+        console.log(component.find(".input").length);
         expect(mockCallBack.mock.calls.length).toBe(1);
     });
 });

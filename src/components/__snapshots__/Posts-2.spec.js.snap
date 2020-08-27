@@ -1,5 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Posts-2 /> should call fetch in componentDidMount 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "https://hn.algolia.com/api/v1/search?query=&hitsPerPage=20&page=0",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+  ],
+}
+`;
+
 exports[`<Posts-2 /> should correctly render Posts-2 1`] = `
 <div
   className="wrapper"
@@ -32,9 +48,13 @@ exports[`<Posts-2 /> should correctly render Posts-2 1`] = `
     value={20}
   />
   <Input
+    name="Input"
     onChange={[Function]}
     onKeyPress={[Function]}
     value=""
+  />
+  <ul
+    className="newsList"
   />
 </div>
 `;

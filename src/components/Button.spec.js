@@ -10,5 +10,5 @@ describe("<Button />", () => {
         component.find(".btn").simulate("click");
         expect(mockCallBack.mock.calls.length).toBe(1);
     });
-
+    
 });
